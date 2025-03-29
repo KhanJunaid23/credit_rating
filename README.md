@@ -18,3 +18,14 @@ This project allows users to apply for mortgages, calculates credit ratings, and
 ## ✅ API Endpoints
 - **POST /api/mortgages/add/** → Add a new mortgage
 - **GET /api/mortgages/** → Fetch all mortgages
+
+## Configuration for .env file
+
+DB_NAME=mortgage_db
+DB_USER="user"
+DB_PASSWORD="password"
+DB_HOST="host"
+DB_PORT=3306
+
+LOG_LEVEL=DEBUG
+LOG_FILE=mortgage_app.log
